@@ -1,25 +1,55 @@
-# Daily stand up
+# 🚀 Daily Jam Session
 
-> **ℹ️ All team members should provide their priorities, progress, and problems each day in this report.**
+> 🎯 **Mission:** Share your *Top Priority*, *Progress*, and *Puzzles* so we can crush today together.
 
 | | |
 |---|---|
-| **Team name** | @mention **team** |
-| **Direct supervisor** | @mention **direct supervisor** |
-| **Table of contents** | <!-- (Table of Contents will be auto‑generated or inserted here) --> |
+| **Squad** | @TeamName |
+| **Captain** | @DirectSupervisor |
 
-## 📅 Tuesday \<Date\>
+---
 
-| # | Name | Priorities 🔍 | Progress 😊 | Problems 😐 |
-|---|------|---------------|-------------|-------------|
-| 1 | Type `@` to add user profile | e.g., Brainstorm budget ideas | e.g., Waiting on final input for project plan | e.g., Customer hasn’t returned email about moving forward |
-| 2 |  |  |  |  |
-| 3 |  |  |  |  |
-| 4 |  |  |  |  |
-| 5 |  |  |  |  |
+## 📅 {{DAY}}, {{DATE}}
+
+| # | 🌟 Crew Member | 🎯 Priorities (Top&nbsp;3) | ✅ Progress | 🧩 Puzzles / Blockers | 🔋 Mood |
+|---|---------------|---------------------------|-------------|-----------------------|---------|
+| 1 |  |  |  |  | 🙂 |
+| 2 |  |  |  |  | 🙂 |
+| 3 |  |  |  |  | 🙂 |
 
 <!--
-Tip:
-• Replace <Date> with the actual date (YYYY‑MM‑DD).
-• Add or remove rows as needed for team size.
+Tips
+• Fill {{DAY}} with the weekday (e.g., Tuesday) and {{DATE}} with YYYY‑MM‑DD.
+• Replace 🙂 with your current vibe (😄 😐 😴).
+• Keep priorities bite‑sized; no novels!
 -->
+
+---
+
+## 🏃‍♂️ Sprint Console
+
+| Sprint | Goal | ⏳ Days Left | 📈 Story Points&nbsp;(Done / Total) |
+|--------|------|-------------|-------------------------------------|
+|  |  |  |  |
+
+---
+
+## 📌 Action Hub
+- [ ] **Task 1** — owner: `@username` — due: 📅
+- [ ] **Task 2**
+- [ ] **Task 3**
+
+---
+
+## 💡 Notes & Shout‑outs
+- 👏 **Kudos:**  
+- 🔮 **Heads‑up / Announcements:**  
+- 📅 **Upcoming Events / Deadlines:**  
+
+---
+
+## ⏭️ Next Sync
+- **Date:**  
+- **Time:**  
+
+> _Pro‑tip:_ End the meeting with one word describing how you feel going into the day 🌈
