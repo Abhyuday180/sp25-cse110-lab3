@@ -148,7 +148,6 @@ summary:hover {
   list-style-type: "✓ ";
 }
 
-/* Updated recordings section styles */
 #recordings {
   display: block;
   grid-column: span 2;
@@ -303,7 +302,6 @@ form p {
     grid-column: span 3;
   }
   
-  /* Updated layout for recordings section at larger screens */
   #recordings {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -339,4 +337,30 @@ footer {
   padding: 1rem;
   background-color: var(--accent-dark);
   border-radius: 0.75rem;
+}
+
+.demo-color-hsl{color:hsla(200,80%,50%,0.9);}
+.demo-color-name{background-color:orange;}
+.demo-color-wide{background-color:color(display-p3 0.3 0.6 0.9);}
+.demo-color-mix{border:3px solid color-mix(in srgb, red 30%, blue);}
+.demo-var-fallback{background:var(--cta,#ff6347);}
+.demo-abs-units{
+  margin-left:1cm;
+  margin-right:12pt;
+  min-width:2in;
+}
+.demo-padding-long{
+  padding-top:1rem;
+  padding-right:2rem;
+}
+.demo-border-long{
+  border-style:dashed;
+  border-width:2px;
+  border-color:#ff6347;
+  border-radius:0.5rem;
+}
+h2 + p.adjacent-example{font-style:italic;}
+.nested-demo{
+  color:#000;
+  & span{font-weight:bold;}
 }

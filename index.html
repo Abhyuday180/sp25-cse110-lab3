@@ -30,15 +30,13 @@
     </ul>
   </nav>
 
-
   <main>
-    <section id="meeting-details">
-      <h2>&#128309; First Meeting</h2>
-      <h3>&#128197; April 10th, 2025</h3>
-      <p><strong>Time:</strong> Meeting started at <time>9:00 PM</time> and ended at <time>9:45 PM</time></p>
-      <p><strong>Location:</strong> Sun God Lounge <span>(Also on zoom)</span></p>
-    </section>
 
+    <section id="meeting-details" class="demo-abs-units demo-padding-long">
+      <h2>&#128309; First Meeting</h2>
+      <p class="demo-color-hsl demo-border-long"><strong>Time:</strong> Meeting started at <time>9:00 PM</time> and ended at <time>9:45 PM</time></p>
+      <p class="demo-color-name demo-var-fallback"><strong>Location:</strong> Sun God Lounge <span>(Also on zoom)</span></p>
+    </section>
 
     <section id="attendance">
       <h2>&#128101; Attendance</h2>
@@ -94,7 +92,7 @@
 
     <section id="team-name">
       <h2>🛒 Team Name</h2>
-      <p>
+      <p class="adjacent-example demo-color-wide demo-color-mix">
         Renee, Jonathan and Abhyuday provided suggestions for the team name. The team agreed on the name
         <strong>Code Blooded</strong>, and team colours of blue and purple.
       </p>
@@ -102,13 +100,13 @@
         This name is <b>bold and punny</b>, and reflects our commitment to <i>coding excellence</i>.
         It's also reminiscent of a <em>shark attack</em> and we liked that imagery.
       </p>
-
+      <div class="nested-demo"><span>Team spirit is everything!</span></div>
       <details>
         <summary><strong>Other Options Discussed</strong></summary>
         <ul>
-          <li>Thomas the Tank Engine/ Thomas's friends </li>
-          <li>Nth Time's the Charm </li>
-          <li>Big If True </li>
+          <li>Thomas the Tank Engine/ Thomas's friends</li>
+          <li>Nth Time's the Charm</li>
+          <li>Big If True</li>
         </ul>
       </details>
     </section>
@@ -116,13 +114,11 @@
     <section id="assignment-discussion">
       <h2>🔧 Assignment Discussion</h2>
       <p>Abhyuday and Emily delegated tasks for the assignment:</p>
-      
       <ul>
         <li><strong>Team Branding:</strong> Jonathan Ty and Emily Nguyen are working on it, but anyone is free to join.</li>
         <li><strong>Intro Video:</strong> Emily Nguyen will send a sample tonight.</li>
         <li><strong>Team Web Page:</strong> Tea Ruiz and Ibrahim Yurdan are working on the team page, but anyone is free to help.</li>
       </ul>
-
       <h3>📝 To-Do List</h3>
       <ul>
         <li>Join the organization if you haven't already.</li>
@@ -133,7 +129,6 @@
 
     <section id="recordings">
       <h2>&#127910; Meeting Recordings</h2>
-      
       <div class="recordings-container">
         <div class="recording-item">
           <h3>&#127911; Audio Recording</h3>
@@ -142,7 +137,6 @@
             Your browser does not support the audio element.
           </audio>
         </div>
-        
         <div class="recording-item">
           <h3>&#127916; Video Recording</h3>
           <video controls width="600">
@@ -154,100 +148,94 @@
     </section>
 
     <section id="feedback-form">
-        <h2>&#128221; Chelsea Feedback Form</h2>
-        <form action="#" method="post">
-          <fieldset>
-            <legend><strong>Chelsea Fan Information</strong></legend>
-            <p>
-              <label for="name"><strong>Name:</strong></label>
-              <input type="text" id="name" name="name" required>
-            </p>
-            <p>
-              <label for="email"><strong>Email:</strong></label>
-              <input type="email" id="email" name="email" required>
-            </p>
-            <p>
-              <label for="attendance-date"><strong>Date of Last Match Watched:</strong></label>
-              <input type="date" id="attendance-date" name="attendance-date">
-            </p>
-          </fieldset>
-      
-          <fieldset>
-            <legend><strong>Chelsea Team Evaluation</strong></legend>
-            <p><u>How would you rate Chelsea's performance in the last match?</u></p>
-            <div style="margin-bottom: 1rem;">
-              <div>
-                <input type="radio" id="very-effective" name="rating" value="very-effective">
-                <label for="very-effective">Dominant</label>
-              </div>
-              <div>
-                <input type="radio" id="effective" name="rating" value="effective">
-                <label for="effective">Good</label>
-              </div>
-              <div>
-                <input type="radio" id="neutral" name="rating" value="neutral">
-                <label for="neutral">Mediocre</label>
-              </div>
-              <div>
-                <input type="radio" id="ineffective" name="rating" value="ineffective">
-                <label for="ineffective">Poor</label>
-              </div>
+      <h2>&#128221; Chelsea Feedback Form</h2>
+      <form action="#" method="post">
+        <fieldset>
+          <legend><strong>Chelsea Fan Information</strong></legend>
+          <p>
+            <label for="name"><strong>Name:</strong></label>
+            <input type="text" id="name" name="name" required>
+          </p>
+          <p>
+            <label for="email"><strong>Email:</strong></label>
+            <input type="email" id="email" name="email" required>
+          </p>
+          <p>
+            <label for="attendance-date"><strong>Date of Last Match Watched:</strong></label>
+            <input type="date" id="attendance-date" name="attendance-date">
+          </p>
+        </fieldset>
+        <fieldset>
+          <legend><strong>Chelsea Team Evaluation</strong></legend>
+          <p><u>How would you rate Chelsea's performance in the last match?</u></p>
+          <div style="margin-bottom: 1rem;">
+            <div>
+              <input type="radio" id="very-effective" name="rating" value="very-effective">
+              <label for="very-effective">Dominant</label>
             </div>
-      
-            <p><u>Which aspects are most important to you as a Chelsea fan?</u> (Check all that apply)</p>
-            <div style="margin-bottom: 1rem;">
-              <div>
-                <input type="checkbox" id="topic-previous" name="topics" value="recent-signings">
-                <label for="topic-previous">Recent Signings</label>
-              </div>
-              <div>
-                <input type="checkbox" id="topic-current" name="topics" value="current-form">
-                <label for="topic-current">Current Form</label>
-              </div>
-              <div>
-                <input type="checkbox" id="topic-assignments" name="topics" value="team-tactics">
-                <label for="topic-assignments">Team Tactics</label>
-              </div>
-              <div>
-                <input type="checkbox" id="topic-goals" name="topics" value="future-goals">
-                <label for="topic-goals">Future Goals</label>
-              </div>
+            <div>
+              <input type="radio" id="effective" name="rating" value="effective">
+              <label for="effective">Good</label>
             </div>
-          </fieldset>
-      
-          <fieldset>
-            <legend><strong>Additional Fan Feedback</strong></legend>
-            <p>
-              <label for="suggestions"><strong>Suggestions for squad improvement:</strong></label><br>
-              <textarea id="suggestions" name="suggestions" rows="4" cols="50"></textarea>
-            </p>
-      
-            <p>
-              <label for="topic-suggestions"><strong>Suggested topics for the next Q&amp;A:</strong></label>
-              <input list="topics" id="topic-suggestions" name="topic-suggestions">
-              <datalist id="topics">
-                <option value="Transfer news">
-                <option value="Training methods">
-                <option value="Youth academy">
-                <option value="European competitions">
-                <option value="Stadium experience">
-              </datalist>
-            </p>
-      
-            <p>
-              <label for="preferred-time"><strong>Preferred time for next Q&amp;A:</strong></label>
-              <select id="preferred-time" name="preferred-time">
-                <option value="morning">Morning (9-11 AM)</option>
-                <option value="mid-day">Mid-Day (11 AM-1 PM)</option>
-                <option value="afternoon">Afternoon (1-4 PM)</option>
-                <option value="late-afternoon">Late Afternoon (4-6 PM)</option>
-              </select>
-            </p>
-          </fieldset>
-      
-          <button type="submit" class="submit-btn"><strong>Submit Feedback</strong></button>
-        </form>
-      </section>      
+            <div>
+              <input type="radio" id="neutral" name="rating" value="neutral">
+              <label for="neutral">Mediocre</label>
+            </div>
+            <div>
+              <input type="radio" id="ineffective" name="rating" value="ineffective">
+              <label for="ineffective">Poor</label>
+            </div>
+          </div>
+          <p><u>Which aspects are most important to you as a Chelsea fan?</u> (Check all that apply)</p>
+          <div style="margin-bottom: 1rem;">
+            <div>
+              <input type="checkbox" id="topic-previous" name="topics" value="recent-signings">
+              <label for="topic-previous">Recent Signings</label>
+            </div>
+            <div>
+              <input type="checkbox" id="topic-current" name="topics" value="current-form">
+              <label for="topic-current">Current Form</label>
+            </div>
+            <div>
+              <input type="checkbox" id="topic-assignments" name="topics" value="team-tactics">
+              <label for="topic-assignments">Team Tactics</label>
+            </div>
+            <div>
+              <input type="checkbox" id="topic-goals" name="topics" value="future-goals">
+              <label for="topic-goals">Future Goals</label>
+            </div>
+          </div>
+        </fieldset>
+        <fieldset>
+          <legend><strong>Additional Fan Feedback</strong></legend>
+          <p>
+            <label for="suggestions"><strong>Suggestions for squad improvement:</strong></label><br>
+            <textarea id="suggestions" name="suggestions" rows="4" cols="50"></textarea>
+          </p>
+          <p>
+            <label for="topic-suggestions"><strong>Suggested topics for the next Q&amp;A:</strong></label>
+            <input list="topics" id="topic-suggestions" name="topic-suggestions">
+            <datalist id="topics">
+              <option value="Transfer news">
+              <option value="Training methods">
+              <option value="Youth academy">
+              <option value="European competitions">
+              <option value="Stadium experience">
+            </datalist>
+          </p>
+          <p>
+            <label for="preferred-time"><strong>Preferred time for next Q&amp;A:</strong></label>
+            <select id="preferred-time" name="preferred-time">
+              <option value="morning">Morning (9-11 AM)</option>
+              <option value="mid-day">Mid-Day (11 AM-1 PM)</option>
+              <option value="afternoon">Afternoon (1-4 PM)</option>
+              <option value="late-afternoon">Late Afternoon (4-6 PM)</option>
+            </select>
+          </p>
+        </fieldset>
+        <button type="submit" class="submit-btn"><strong>Submit Feedback</strong></button>
+      </form>
+    </section>
   </main>
 
   <footer>
