@@ -17,12 +17,6 @@
 | 2 |  |  |  |  | 🙂 |
 | 3 |  |  |  |  | 🙂 |
 
-<!--
-Tips
-• Fill {{DAY}} with the weekday (e.g., Tuesday) and {{DATE}} with YYYY‑MM‑DD.
-• Replace 🙂 with your current vibe (😄 😐 😴).
-• Keep priorities bite‑sized; no novels!
--->
 
 ---
 
