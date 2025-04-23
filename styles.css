@@ -341,8 +341,16 @@ footer {
 
 .demo-color-hsl{color:hsla(200,80%,50%,0.9);}
 .demo-color-name{background-color:orange;}
-.demo-color-wide{background-color:color(display-p3 0.3 0.6 0.9);}
-.demo-color-mix{border:3px solid color-mix(in srgb, red 30%, blue);}
+.demo-color-wide{
+  background-color:#3f7dff;
+  background-color:color(display-p3 0.3 0.6 0.9);
+}
+.demo-color-mix{
+  border-width:3px;
+  border-style:solid;
+  border-color:#8e40ff;
+  border-color:color-mix(in srgb,red 30%,blue);
+}
 .demo-var-fallback{background:var(--cta,#ff6347);}
 .demo-abs-units{
   margin-left:1cm;
