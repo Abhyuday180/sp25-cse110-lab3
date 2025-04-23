@@ -13,7 +13,7 @@ body{
   color:hsl(210 20% 95%);
   line-height:1.5;
   margin:0 auto;
-  max-width:90ch;
+  max-width:110ch;
   padding:2rem 1rem;
 }
 
@@ -158,6 +158,22 @@ fieldset:has(input:invalid){
   }
   main{
     grid-template-columns:repeat(2,1fr);
+  }
+}
+
+@media (min-width:62rem){
+  body{
+    max-width:1200px;
+    font-size:1.05rem;
+  }
+  main{
+    grid-template-columns:repeat(3,1fr);
+  }
+  nav ul{
+    justify-content:flex-start;
+  }
+  #meeting-details h3{
+    position:static;
   }
 }
 
