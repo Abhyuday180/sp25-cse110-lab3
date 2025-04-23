@@ -1,78 +1,25 @@
-# Daily Stand-up Notes  
-**Date:** [YYYY-MM-DD]  
-**Attendees:** [Names of attendees]
+# Daily stand up
 
----
+> **ℹ️ All team members should provide their priorities, progress, and problems each day in this report.**
 
-## Team Member Updates
+| | |
+|---|---|
+| **Team name** | @mention **team** |
+| **Direct supervisor** | @mention **direct supervisor** |
+| **Table of contents** | <!-- (Table of Contents will be auto‑generated or inserted here) --> |
 
-### [Team Member 1]
+## 📅 Tuesday \<Date\>
 
-**Yesterday**  
-- [Task completed]  
-- [Task completed]
+| # | Name | Priorities 🔍 | Progress 😊 | Problems 😐 |
+|---|------|---------------|-------------|-------------|
+| 1 | Type `@` to add user profile | e.g., Brainstorm budget ideas | e.g., Waiting on final input for project plan | e.g., Customer hasn’t returned email about moving forward |
+| 2 |  |  |  |  |
+| 3 |  |  |  |  |
+| 4 |  |  |  |  |
+| 5 |  |  |  |  |
 
-**Today**  
-- [Task planned]  
-- [Task planned]
-
-**Blockers**  
-- [Any blockers or issues]
-
----
-
-### [Team Member 2]
-
-**Yesterday**  
-- [Task completed]  
-- [Task completed]
-
-**Today**  
-- [Task planned]  
-- [Task planned]
-
-**Blockers**  
-- [Any blockers or issues]
-
----
-
-### [Team Member 3]
-
-**Yesterday**  
-- [Task completed]  
-- [Task completed]
-
-**Today**  
-- [Task planned]  
-- [Task planned]
-
-**Blockers**  
-- [Any blockers or issues]
-
----
-
-## Sprint Progress
-- **Current Sprint:** [Sprint name/number]  
-- **Sprint Goal:** [Brief description of sprint goal]  
-- **Days Remaining:** [X/Y]  
-- **Story Points Completed:** [X/Y]
-
----
-
-## Action Items
-- [Action item 1] — **Assigned to:** [Name]  
-- [Action item 2] — **Assigned to:** [Name]  
-- [Action item 3] — **Assigned to:** [Name]
-
----
-
-## Notes
-- [Any additional notes or discussions]  
-- [Important announcements]  
-- [Upcoming events/deadlines]
-
----
-
-## Next Meeting
-**Date:** [YYYY-MM-DD]  
-**Time:** [HH AM/PM Timezone]
+<!--
+Tip:
+• Replace <Date> with the actual date (YYYY‑MM‑DD).
+• Add or remove rows as needed for team size.
+-->
