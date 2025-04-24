@@ -39,7 +39,7 @@ nav{
   margin: 2rem 0;
 }
 
-nav h3 {
+nav h3{
   text-align: center;
   margin-bottom: 1rem;
 }
@@ -93,25 +93,26 @@ section{
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
 }
 
-section h2 {
+section h2{
   color: var(--accent-dark);
   margin-bottom: 1rem;
   padding-bottom: 0.5rem;
   border-bottom: 2px solid var(--accent-light);
 }
 
-section h3 {
+section h3{
   margin-top: 1rem;
   margin-bottom: 0.5rem;
   color: var(--accent-dark);
 }
 
-ol, ul {
+ol,
+ul{
   padding-left: 1.5rem;
   margin-bottom: 1rem;
 }
 
-li {
+li{
   margin-bottom: 0.5rem;
 }
 
@@ -128,7 +129,7 @@ summary{
   color: var(--accent-dark);
 }
 
-summary:hover {
+summary:hover{
   background-color: rgba(78, 170, 255, 0.1);
 }
 
@@ -148,22 +149,22 @@ summary:hover {
   list-style-type: "✓ ";
 }
 
-#recordings {
+#recordings{
   display: block;
   grid-column: span 2;
 }
 
-#recordings h2 {
+#recordings h2{
   margin-bottom: 1.5rem;
 }
 
-#recordings h3 {
+#recordings h3{
   margin-top: 1rem;
   margin-bottom: 0.5rem;
 }
 
-#recordings audio, 
-#recordings video {
+#recordings audio,
+#recordings video{
   width: 100%;
   margin-top: 0.5rem;
   border-radius: 0.5rem;
@@ -208,7 +209,7 @@ input[type="text"],
 input[type="email"],
 input[type="date"],
 textarea,
-select {
+select{
   width: 100%;
   max-width: 40rem;
   padding: 0.75rem;
@@ -218,18 +219,18 @@ select {
 }
 
 input::placeholder,
-textarea::placeholder {
+textarea::placeholder{
   opacity: 0.6;
 }
 
-fieldset {
+fieldset{
   border: 1px solid #ddd;
   padding: 1rem;
   margin-bottom: 1.5rem;
   border-radius: 0.5rem;
 }
 
-fieldset legend {
+fieldset legend{
   padding: 0 0.5rem;
   color: var(--accent-dark);
 }
@@ -238,99 +239,108 @@ fieldset:has(input:invalid){
   outline: 2px solid red;
 }
 
-hr {
+hr{
   margin: 1.5rem 0;
   border: 0;
   border-top: 1px solid var(--accent-light);
 }
 
-form p {
+form p{
   margin-bottom: 1rem;
 }
 
-#skribbl-activity, #team-name, #assignment-discussion, 
-#meeting-details, #attendance, #agenda {
+#skribbl-activity,
+#team-name,
+#assignment-discussion,
+#meeting-details,
+#attendance,
+#agenda{
   display: flex;
   flex-direction: column;
   height: 100%;
 }
 
-#assignment-discussion ul {
+#assignment-discussion ul{
   margin-bottom: 1rem;
 }
 
-#assignment-discussion h3 {
+#assignment-discussion h3{
   margin-top: 1rem;
 }
 
-@media (min-width: 768px) {
-  main {
+@media (min-width: 768px){
+  main{
     grid-template-columns: repeat(2, 1fr);
   }
-  
-  #recordings, #feedback-form {
+
+  #recordings,
+  #feedback-form{
     grid-column: span 2;
   }
-  
-  #skribbl-activity, #team-name, #assignment-discussion {
+
+  #skribbl-activity,
+  #team-name,
+  #assignment-discussion{
     grid-column: span 1;
   }
-  
-  section {
+
+  section{
     padding: 2rem;
   }
 }
 
-@media (min-width: 1024px) {
-  body {
+@media (min-width: 1024px){
+  body{
     font-size: 1.05rem;
   }
-  
-  main {
+
+  main{
     grid-template-columns: repeat(3, 1fr);
   }
-  
-  nav ul {
+
+  nav ul{
     justify-content: flex-start;
   }
-  
-  #meeting-details h3 {
+
+  #meeting-details h3{
     position: static;
   }
-  
-  #recordings, #feedback-form {
+
+  #recordings,
+  #feedback-form{
     grid-column: span 3;
   }
-  
-  #recordings {
+
+  #recordings{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 2rem;
   }
-  
-  #recordings h2 {
+
+  #recordings h2{
     grid-column: span 2;
   }
 }
 
-@media print {
-  body {
+@media print{
+  body{
     background: #fff;
     color: #000;
   }
-  
-  nav, footer {
+
+  nav,
+  footer{
     display: none;
   }
-  
-  section {
+
+  section{
     break-inside: avoid;
     box-shadow: none;
     border: 1px solid #ddd;
   }
 }
 
-footer {
+footer{
   margin-top: 2rem;
   text-align: center;
   font-size: 0.9rem;
@@ -341,8 +351,17 @@ footer {
 
 .demo-color-hsl{color:hsla(200,80%,50%,0.9);}
 .demo-color-name{background-color:orange;}
-.demo-color-wide{background-color:color(display-p3 0.3 0.6 0.9);}
-.demo-color-mix{border:3px solid color-mix(in srgb, red 30%, blue);}
+
+.demo-color-wide{
+  background-color:#3f7dff;
+}
+
+.demo-color-mix{
+  border-width:3px;
+  border-style:solid;
+  border-color:#8e40ff;
+}
+
 .demo-var-fallback{background:var(--cta,#ff6347);}
 .demo-abs-units{
   margin-left:1cm;
@@ -360,7 +379,10 @@ footer {
   border-radius:0.5rem;
 }
 h2 + p.adjacent-example{font-style:italic;}
+
 .nested-demo{
   color:#000;
-  & span{font-weight:bold;}
+}
+.nested-demo span{
+  font-weight:bold;
 }
